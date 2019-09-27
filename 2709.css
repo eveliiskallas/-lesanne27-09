@@ -30,4 +30,12 @@ header{
 .menu_items h4 {
     padding: 0 15px;
 }
+.header_title{
+    position: relative;
+    display: block;
+    width: 90%;
+    height:300px;
+    left:85px;
+    background-color: beige;
+}
 
