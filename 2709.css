@@ -82,7 +82,7 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
-    height: 500px;
+    align-items: center;
 }
 .image {
     position: relative;
@@ -138,5 +138,102 @@ footer{
     width:100%;
     height: 70px;
     background-color: #ffc0d0;
+}
+
+@media only screen and (max-width: 700px) {
+	#shop {
+        display: block;
+    }
+    header {
+        display: block;
+    }
+    .logo {
+        justify-content: center;
+    }
+    .menu_items{
+        justify-content: space-between;
+    }
+    .header_title{
+        background-color: #ffc0d0;
+        background-image: none;
+        left:0;
+        width:100%;
+    }
+    .title{
+        text-align: center;
+        display: block;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .images{
+        display: block;
+    }
+    .image {
+        padding: 15px 15px;
+        justify-content: center;
+    }
+    .container{
+        display: block;
+    }
+    .container_reverse{
+        display: block;
+    }
+    .info_image img {
+        height: 300px;
+    }
+    .info_info{
+        justify-content: center;
+        display: contents;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+	#shop {
+        display: block;
+    }
+    .header_title{
+        background-color: #ffc0d0;
+        background-image: none;
+        left:0;
+        width:100%;
+    }
+    .title{
+        text-align: center;
+        display: block;
+    }
+    .subtitle{
+        text-align: center;
+        display: block;
+    }
+    .images{
+        display: block;
+    }
+    .image {
+        padding: 15px 15px;
+        justify-content: center;
+    }
+    .container{
+        display: block;
+    }
+    .container_reverse{
+        display: block;
+    }
+    .info_image {
+        display: flex;
+        justify-content: center;
+    }
+    .info_info{
+        justify-content: center;
+        display: contents;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .image img {
+        width: 250px;
+        padding: 5px 5px;
+        justify-content: center;
+    }
 }
 
