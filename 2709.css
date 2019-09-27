@@ -84,4 +84,23 @@ header{
     height:400px;
     flex-wrap: wrap;
 }
+.img_info{
+    position: relative;
+    display: block;
+}
+.container{
+    position: relative;
+    width:100%;
+    display:flex;
+}
+.info_image{
+    width:50%;
+}
+.info_image img{
+    width:300px;
+    height:300px;
+}
+.info_info{
+    width: 50%;
+}
 
