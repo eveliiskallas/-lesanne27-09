@@ -88,12 +88,25 @@ header{
     position: relative;
     display: block;
 }
+.img_info h3 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
 .container{
     position: relative;
     width:100%;
     display:flex;
     justify-content: center;
     padding:20px 20px;
+}
+.container_reverse{
+    position: relative;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:20px 20px;
+    flex-direction: row-reverse;  
 }
 .info_image img{
     flex-wrap: wrap;
