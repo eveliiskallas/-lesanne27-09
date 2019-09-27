@@ -92,15 +92,19 @@ header{
     position: relative;
     width:100%;
     display:flex;
-}
-.info_image{
-    width:50%;
+    justify-content: center;
+    padding:20px 20px;
 }
 .info_image img{
-    width:300px;
-    height:300px;
+    flex-wrap: wrap;
+    height:350px;
 }
 .info_info{
     width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 15px;
 }
 
